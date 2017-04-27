@@ -9,8 +9,7 @@ t.yaml" />
   <arg name="use_keepout" default="false" />
 
   <!-- Navigation parameter files -->
-  <arg name="move_base_include" default="$(find fetch_navigation)/launch/include/move_base.lau
-nch.xml" />
+  <arg name="move_base_include" default="$(find fetch_navigation)/launch/include/move_base.launch.xml" />
   <arg name="amcl_include" default="$(find fetch_navigation)/launch/include/amcl.launch.xml" />
 
   <!-- serve up a map -->
